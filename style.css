@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+
+body {
+    font-family: lucida grande, verdana, arial, helvetica;
+    font-size: 12px;
+    background-image: url(mainBg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20vh;
+    position: relative;
+}
+
+h1 {
+    /*font-family: 'Nanum Pen Script', cursive; */
+    /* font-family: 'Tagesschrift'; */
+    font-family: 'Coral Pixels';
+    margin: 0;
+    padding: 0.2em;
+    font-size: 46px;
+    font-weight: normal;
+    line-height: 42px;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+.white {
+    /* border: 1px solid #000;
+    padding: 12px;
+    margin: 6px 0; */
+    border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABgElEQVRYR9WZwRHCMAwESUeUQEtUQkuUQEcwPMRDmZs9OQ62eRJZ3pxkSUm2i/m73h5v07Rk9nreN2eBZfR1ND1oBiQF1A3ldVW/qGjV4d9BFWAVJJR0/amISUVdx3EQVGhPAyXF6FBRLuYbo/3CfqcoLRwOSgBU63KISVmVEnmfsPspOj1otfwoZSllYl3YVSOwLQfq5gzlqnud9svXf4rSQhfAtaP9mkEpp1xAlaPqtIe9reg0oKpjUGt0laRTbyu6HCgNGeq6qywNOyqCuzq6DCj16N6KusJgZ3JbY2voy6B0us9qtW4Ed3XULSP0kOcOL82gFOrcWdyQKwFcYYZ3pmVA3QgOV/R00GpuVu27jXnVjav2EpQKL415FMIqaPZnd6bhoLk8qDunVzNumakqW36unwaUlHUfxsiPGtDVhB//d3v35PbsbqBKEQq9mgGoGrhT2eH3o0erwWFQUpZykcZAF1DmaE5qckihbZ1L8zr82EDKVesinW7lbxnQD8NLpB2X2uMcAAAAAElFTkSuQmCC') 14 / 14px / 0 round;
+    border-width: 14px;
+    border-style: solid;
+    padding: 12px;
+    margin: 3px 0;
+}
+
+.banner {
+    height: 100px;
+    border: 1px solid black;
+    background: #666;
+    text-align: end;
+    padding: 12px;
+    background-image: url(blockBg.png);
+    background-position: 1px;
+    background-size: cover;
+    transition: all 0.3s ease 0.1s;
+    color: #EEE;
+    font-size: 10px;
+
+}
+
+.banner:hover {
+    margin: 7px;
+    transition-delay: 0s;
+}
+
+.nav a {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+    cursor: default;
+    transition: all 0.3s ease 0.1s;
+    text-decoration: none;
+    margin-top: 11px;
+    border-bottom: 1px dotted black;
+}
+
+.nav a:hover {
+    color: #e2907f;
+    cursor: crosshair;
+    margin: 4px;
+    transition-delay: 0s;
+}
+
+.gifButtons {
+    transform: translate(14%);
+    display: flex;
+    flex-direction: row;
+    padding-top: 4px;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.gifButtons img {
+    width: auto;
+    height: 25px;
+    object-fit: contain;
+}
+
+.updates {
+    width: 340px;
+    margin-left: 60px;
+    overflow: hidden;
+    height: 14px;
+}
+
+.update {
+    display: inline;
+    margin-right: 24px;
+}
+
+.updates {
+    /* margin-top: 6px; */
+}
+
+.title {
+    margin-left: 110px;
+}
