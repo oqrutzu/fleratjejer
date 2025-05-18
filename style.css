@@ -5,11 +5,7 @@
 body {
     font-family: lucida grande, verdana, arial, helvetica;
     font-size: 12px;
-<<<<<<< HEAD
-    background-image: url(mainBg.png);
-=======
-    background-image: url(mainBg.png);
->>>>>>> f02c156 (cleanup)
+    background-image: url(media/mainBg.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -62,7 +58,7 @@ h1 {
     background: #666;
     text-align: end;
     padding: 12px;
-    background-image: url(blockBg.png);
+    background-image: url(media/blockBg.png);
     background-position: 1px;
     background-size: cover;
     transition: all 0.3s ease 0.1s;
