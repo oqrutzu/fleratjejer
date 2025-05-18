@@ -5,7 +5,11 @@
 body {
     font-family: lucida grande, verdana, arial, helvetica;
     font-size: 12px;
+<<<<<<< HEAD
     background-image: url(mainBg.png);
+=======
+    background-image: url(mainBg.png);
+>>>>>>> f02c156 (cleanup)
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
